@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<style>
+        .container{
+        background-color: lightblue;
+        height: 500px;
+        width: 500px;
+        margin-left: 30%;
+        border-radius: 10px;
+
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "one two three"
+        "four five six"
+        "seven eight nine";
+        align-items: stretch;
+        }
+        .board{
+            border-style: solid;
+            border-color: black;
+        }
+
+        #one{
+            grid-area: one;
+        }
+        #two{
+            grid-area: two;
+        }
+        #three{
+            grid-area: three;
+        }
+        #four{
+            grid-area: four;
+        }
+        #five{
+            grid-area: five;
+        }
+        #six{
+            grid-area: six;
+        }
+        #seven{
+            grid-area: seven;
+        }
+        #eight{
+            grid-area: eight;
+        }
+        #nine{
+            grid-area: nine;
+        }
+
+</style>
+<html>
+<head>
+  <title>JavaScriptTest</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>
+    Tic-Tac-Toe
+  </h1>
+  <div id="container" class="container">
+    <div id="one" class="board">
+
+    </div>
+    <div id="two" class="board">
+    </div>
+    <div id="three" class="board">
+    </div>
+    <div id="four" class="board">
+    </div>
+    <div id="five" class="board">
+    </div>
+    <div id="six" class="board">
+    </div>
+    <div id="seven" class="board">
+    </div>
+    <div id="eight" class="board">
+    </div>
+    <div id="nine" class="board"> 
+    </div>
+
+  </div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
