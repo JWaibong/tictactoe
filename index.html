@@ -19,33 +19,39 @@
         .board{
             border-style: solid;
             border-color: black;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 125px;
+        }
+        h1{
+            font-family: sans-serif;
         }
 
-        #one{
+        #grid0{
             grid-area: one;
         }
-        #two{
+        #grid1{
             grid-area: two;
         }
-        #three{
+        #grid2{
             grid-area: three;
         }
-        #four{
+        #grid3{
             grid-area: four;
         }
-        #five{
+        #grid4{
             grid-area: five;
         }
-        #six{
+        #grid5{
             grid-area: six;
         }
-        #seven{
+        #grid6{
             grid-area: seven;
         }
-        #eight{
+        #grid7{
             grid-area: eight;
         }
-        #nine{
+        #grid8{
             grid-area: nine;
         }
 
@@ -58,29 +64,33 @@
 <body>
   <h1>
     Tic-Tac-Toe
+    <button id ="reset"> Reset </button>
+    <div id="winner">
+    </div>
   </h1>
   <div id="container" class="container">
-    <div id="one" class="board">
+    <div id="grid0" class="board">
 
     </div>
-    <div id="two" class="board">
+    <div id="grid1" class="board">
     </div>
-    <div id="three" class="board">
+    <div id="grid2" class="board">
     </div>
-    <div id="four" class="board">
+    <div id="grid3" class="board">
     </div>
-    <div id="five" class="board">
+    <div id="grid4" class="board">
     </div>
-    <div id="six" class="board">
+    <div id="grid5" class="board">
     </div>
-    <div id="seven" class="board">
+    <div id="grid6" class="board">
     </div>
-    <div id="eight" class="board">
+    <div id="grid7" class="board">
     </div>
-    <div id="nine" class="board"> 
+    <div id="grid8" class="board"> 
     </div>
 
   </div>
+
 
 </body>
 <script type="text/javascript" src="script.js"></script>
